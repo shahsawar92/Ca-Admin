@@ -1,0 +1,114 @@
+.container  {
+    height: 250px;
+    width: 250px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px #d0d0d0;
+
+  }
+  
+  .content {
+   text-align: justify;
+   color: #4e4e4e;
+    font: 100;
+    font-size: xx-small;
+    opacity: .6;
+    padding: 5px;
+  }
+  
+  h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  h3 {
+    font-weight: 100;
+  }
+
+  .container-invite  {
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    
+    
+  }
+
+
+  .topflex-card{
+    font: 100;
+    font-size: large;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .topflex-background{
+    background-color: #DDDCDF;
+    border-radius: 8px;
+    padding: 2px 6px;
+    font-size: small;
+  }
+
+  .active{
+    margin-top: 25px;
+    font: 100;
+    font-size: small;
+  }
+
+  .table-alerts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+  }
+  .table-container{
+    margin-top: 25px;
+    font: 100;
+    font-size: small;
+  }
+
+
+  .room-img {
+    height: 22px;
+    width:22px;
+    object-fit: contain;
+  }
+
+  .room-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .text-invite{
+    font-size: small;
+  }
+
+  .card-title{
+    font-weight: 800;
+    font-size: small;
+  }
+
+  .card-subtitle{
+    font-weight: 800;
+    font-size: smaller;
+  }
+
+  .card-subtitle-integer{
+    font-size: large;
+    font-weight: 800;
+  }
+
+  .news-linespace{
+font-size: small;  }
+
+.discription{
+  font-size: x-small;
+  font-weight: 600;
+}

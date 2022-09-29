@@ -1,0 +1,30 @@
+.home-container{
+    padding-top: 15px;
+    background-color: #F9F9F9;
+}
+.home-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 30%;
+    justify-content: space-evenly;
+    padding: -30px !important;
+}
+
+.home-card>div{
+    flex: 0 0 30%;
+    margin: 10px 0px;
+}
+
+
+.small-cards-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 15px !important;
+    align-items: center;
+}
+
+.small-cards-home>*{
+    align-self: center;
+    margin-top: 15px !important;
+}

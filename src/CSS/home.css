@@ -1,0 +1,16 @@
+.main-home{
+display: flex;
+}
+
+.left-home{
+flex: 15%;
+}
+
+.center-home{
+    flex:70%
+    
+}
+
+.right-home{
+flex: 15%;
+}

@@ -1,0 +1,99 @@
+.navbar-custom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6C7F8A;
+
+}
+
+.left-content{
+    display: inline-flex;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.togle-container{
+display: contents;
+height: 5px;
+padding-inline: 10px;
+}
+
+.toggle-img{
+height: 15px;
+width: 16px;
+margin:  20px 0;
+cursor: pointer;
+color: white;
+}
+
+.logo{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    margin: 0 20px;
+    margin-top: 15px;
+    text-decoration: none !important;
+
+    outline: none;
+}
+.logo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.search{
+padding: 0px;
+height: 26px;
+border: none;
+outline: none;
+border-radius: 7px;
+width: 250px;
+font-size: x-small;
+font: 100;
+margin-left: 75px;
+align-self: center;
+padding-left: 10px;
+}
+.search::placeholder{
+    font: 100;
+    font-size: x-small;
+    
+}
+
+.search-icon{
+height: 15px;
+align-self: center;
+position: absolute;
+left: 33%;
+cursor: pointer;
+}
+
+.right-container{
+    display: inline-flex;
+    margin: 0 20px;
+}
+
+.right-container-namediv{
+margin: 0 15px;
+font-size: small;
+align-self: center;
+}
+
+.name{
+color: white;
+}
+
+.online-status{
+color: white;
+}
+
+.proifile-imgdiv{
+background-color: gray;
+border: white 3px;
+height: 46px;
+width: 46px;
+border-radius: 100%;
+align-self: center;
+border: solid 3px white;
+  padding: 5px;
+  background-color: lightblue;
+}
